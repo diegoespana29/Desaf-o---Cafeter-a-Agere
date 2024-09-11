@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.imagen1 {
+  position: absolute;
+  right: 50%;
+  top: 15%;
+  z-index: -2;
+  height: 400px;
+  width: 800px;
+}
+
+.imagen2 {
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  z-index: -2;
+  height: 200px;
+  width: 400px;
+}
+
+.imagen4 {
+  position: absolute;
+  left: 20%;
+  top: 72%;
+  z-index: -2;
+  height: 170px;
+  width: 400px;
+}
+
+.cafe {
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.rectangulo {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  z-index: -2;
+  width: 450px;
+  height: 200px;
+  background-color: rgb(8, 152, 201);
+}
+
+.cafe {
+  position: absolute;
+  top: 120px;
+  right: 500px;
+  z-index: 2;
+  color: rgb(8, 8, 8);
+  background-color: white; /* Fondo semitransparente */
+  padding: 10px;
+  font-size: 30px; /* Tamaño del texto aumentado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.cafe h1 {
+  display: block; /* Asegura que el h1 ocupe una línea completa */
+  margin: 0; /* Ajusta los márgenes para evitar espacios adicionales */
+}
+
+.cafe p {
+  position: absolute;
+  top: 120px;
+  right: 150px;
+  z-index: 2;
+  color: rgb(8, 8, 8);
+  background-color: white; /* Fondo semitransparente */
+  padding: 10px;
+  color: black; /* Cambiar el color del texto del párrafo */
+  font-size: 18px; /* Cambiar el tamaño del texto del párrafo */
+  font-style: italic; /* Hacer el texto en cursiva */
+}
+
+.descripcion {
+  position: absolute;
+  top: 520px;
+  right: 1300px;
+  z-index: 2;
+  color: rgb(8, 8, 8);
+  background-color: white; /* Fondo semitransparente */
+  padding: 10px;
+  font-size: 25px; /* Tamaño del texto aumentado */
+  font-weight: bold; /* Texto en negrita */
+}
+
+.cafe p {
+  /* Cambiar el color del texto del párrafo */
+  font-size: 10px; /* Cambiar el tamaño del texto del párrafo */
+  font-style: italic; /* Hacer el texto en cursiva */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Aplica márgenes automáticos para centrar */
+  margin-left: 340px;
+  padding: 20px;
+  transform: translateY(430px);
+}
+
+.stat {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

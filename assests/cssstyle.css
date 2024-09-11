@@ -1,0 +1,45 @@
+.imagen1 {
+  position: absolute;
+  right: 50%;
+  top: 15%;
+  z-index: -2;
+  height: 400px;
+  width: 800px;
+}
+
+.imagen2 {
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  z-index: -2;
+  height: 200px;
+  width: 400px;
+}
+
+.imagen4 {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+  z-index: -2;
+  height: 200px;
+  width: 200px;
+}
+
+.cafe {
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.rectangulo {
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  z-index: -2;
+  width: 450px;
+  height: 200px;
+  background-color: rgb(8, 152, 201);
+}
+
+/*# sourceMappingURL=cssstyle.css.map */
